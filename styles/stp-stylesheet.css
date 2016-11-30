@@ -1,10 +1,47 @@
 
 /* headers*/
+h1{
+  font-family: 'PT Sans', sans-serif;
+}
 h3, h2{
   font-family: 'PT Sans', sans-serif;
 }
 h4{
   font-family: 'Ubuntu', sans-serif;
+}
+.hours{
+  text-align: center;
+}
+.home-hours{
+  text-align: center;
+}
+
+.mission{
+  text-align: center;
+  font-size: 25px;
+}
+.right{
+  float:right;
+}
+/*Button on Index*/
+.button {
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover{
+  background-color: black;
+  color: skyblue;
+  transition-duration: .2s;
+  transition-timing-function: ease-out;
+  
 }
 /* Nav  */
 nav {
