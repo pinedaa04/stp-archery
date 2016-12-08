@@ -2,9 +2,16 @@
 /* headers*/
 h1{
   font-family: 'PT Sans', sans-serif;
+  
+  
 }
 h3, h2{
   font-family: 'PT Sans', sans-serif;
+  text-align: center;
+}
+.contact{
+   margin: 10px;
+  text-align: center;
 }
 h4{
   font-family: 'Ubuntu', sans-serif;
@@ -15,7 +22,9 @@ h4{
 .home-hours{
   text-align: center;
 }
-
+header{
+  text-align: center;
+}
 .mission{
   text-align: center;
   font-size: 25px;
@@ -42,6 +51,13 @@ h4{
   transition-duration: .2s;
   transition-timing-function: ease-out;
   
+}
+/*paragraph */
+p{
+  text-align: center;
+  font-weight: bolder;
+  margin: 1px;
+  padding: 4px;
 }
 /* Nav  */
 nav {
@@ -106,10 +122,55 @@ footer p{
   color: white
   
 }
-div .social{
-  text-align: center;
-}
+
 .nondiscrimination{
   text-align: center;
+}
+
+/* grid style sheet */
+
+.col_1_of_6 {width: 16.666%;}
+.col_2_of_6 {width: 33.333%;}
+.col_3_of_6 {width:50%;}
+.col_4_of_6 {width: 66.666%;}
+.col_5_of_6 {width: 83.3333%;}
+.col_6_of_6 {width: 100%;}
+.col_3_of_4 {width: 75%;}
+.col_3_of_5 {width: 60%;}
+
+/*grid*/
+
+* {
+  margin: 0 auto;
+  box-sizing: border-box; 
+}
+
+
+ div[class^='col_']  {
+  float: left;
+  padding: 1rem;
+}
+
+.col_1_of_6 {width: 16.666%;}
+.col_2_of_6 {width: 33.333%;}
+.col_3_of_6 {width:50%;}
+.col_4_of_6 {width: 66.666%;}
+.col_5_of_6 {width: 83.3333%;}
+.col_6_of_6 {width: 100%;}
+.col_3_of_4 {width: 75%;}
+.col_3_of_5 {width: 60%;}
+
+
+.stpa {
+  display: block;
+  width: 15%;
+  height: auto;
+  margin: auto;
+}
+main {
+  text-align: center; 
+}
+a {
+  text-decoration: none;
 }
 
